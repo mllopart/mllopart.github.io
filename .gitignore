@@ -1,0 +1,9 @@
+# Other
+*.log
+*~
+.idea
+.vscode
+.vs
+*.pyproj
+*.code-workspace
+.venv/
