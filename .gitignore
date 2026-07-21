@@ -7,3 +7,6 @@
 *.pyproj
 *.code-workspace
 .venv/
+
+# Internal design notes (not part of the site)
+docs/superpowers/

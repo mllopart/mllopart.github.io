@@ -1,1045 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Marc Llopart</title>
-    <!-- Meta -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
-      rel="stylesheet"
-      type="text/css"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary meta -->
+    <title>Marc Llopart — CTO &amp; Engineering Leader | AI &amp; Search Systems</title>
+    <meta
+      name="description"
+      content="Marc Llopart Riera — CTO and engineering leader with 20+ years building AI and search systems, and the teams that ship them, across Spain, Ireland and the USA."
     />
-    <!-- FontAwesome JS -->
-    <script defer src="assets/plugins/fontawesome/js/all.js"></script>
-    <!-- Global CSS -->
-    <link
-      rel="stylesheet"
-      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    <meta name="author" content="Marc Llopart Riera" />
+    <meta name="theme-color" content="#2F4A3C" />
+    <link rel="canonical" href="https://www.marcllopartriera.com/" />
+
+    <!-- Icons -->
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/images/profile.jpg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Marc Llopart — CTO &amp; Engineering Leader" />
+    <meta
+      property="og:description"
+      content="20+ years building AI and search systems and the engineering teams that ship them. CTO at Medullar Solutions."
     />
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-3.css" />
+    <meta property="og:url" content="https://www.marcllopartriera.com/" />
+    <meta property="og:image" content="https://www.marcllopartriera.com/assets/images/profile.jpg" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:site_name" content="Marc Llopart Riera" />
+    <meta property="profile:first_name" content="Marc" />
+    <meta property="profile:last_name" content="Llopart Riera" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Marc Llopart — CTO &amp; Engineering Leader" />
+    <meta
+      name="twitter:description"
+      content="20+ years building AI and search systems and the engineering teams that ship them."
+    />
+    <meta name="twitter:image" content="https://www.marcllopartriera.com/assets/images/profile.jpg" />
+    <meta name="twitter:creator" content="@larsnow" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Marc Llopart Riera",
+        "givenName": "Marc",
+        "familyName": "Llopart Riera",
+        "jobTitle": "Chief Technology Officer",
+        "url": "https://www.marcllopartriera.com/",
+        "image": "https://www.marcllopartriera.com/assets/images/profile.jpg",
+        "email": "mailto:marc@medullar.com",
+        "description": "CTO and engineering leader with 20+ years building AI and search systems and the teams that ship them.",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Medullar Solutions Inc.",
+          "url": "https://www.medullar.com"
+        },
+        "knowsAbout": [
+          "Artificial Intelligence",
+          "Search technology",
+          "Software architecture",
+          "Engineering leadership",
+          "Microservices",
+          "Kubernetes",
+          "Cloud computing"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universitat Oberta de Catalunya"
+        },
+        "nationality": "Spanish",
+        "sameAs": [
+          "https://www.linkedin.com/in/mllopart/",
+          "https://github.com/mllopart",
+          "https://twitter.com/larsnow",
+          "https://www.instagram.com/larsnow/",
+          "https://www.luodaint.com"
+        ]
+      }
+    </script>
   </head>
 
   <body>
-    <header class="header">
-      <div class="top-bar container-fluid">
-        <div class="actions">
-          <a
-            class="btn d-none d-md-inline-block"
-            href="mailto:marc@luodaint.com"
-            ><i class="fas fa-paper-plane" aria-hidden="true"></i> Hire Me</a
-          >
-          <a
-            class="btn"
-            target="_blank"
-            href="assets/documents/MarcLlopartRiera_Resume.pdf"
-            ><i class="fas fa-download" aria-hidden="true"></i> Download My
-            Resume</a
-          >
-        </div>
-        <!--//actions-->
-        <ul class="social list-inline">
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/mllopart/" target="_blank"
-              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/larsnow" target="_blank"
-              ><i class="fab fa-twitter" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/mllopart" target="_blank"
-              ><i class="fab fa-github-alt" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com/larsnow/" target="_blank"
-              ><i class="fab fa-instagram" aria-hidden="true"></i
-            ></a>
-          </li>
-        </ul>
-        <!--//social-->
-      </div>
-      <!--//top-bar-->
+    <a class="skip-link" href="#main">Skip to content</a>
 
-      <div class="intro">
-        <div class="container text-center">
+    <!-- Icon sprite -->
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24h-4V8z" />
+      </symbol>
+      <symbol id="i-github" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.2 11.4.6.11.82-.26.82-.58v-2c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.49.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.32.47-2.4 1.24-3.24-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.24a11.5 11.5 0 016 0c2.29-1.56 3.3-1.24 3.3-1.24.66 1.65.25 2.87.12 3.17.77.84 1.24 1.92 1.24 3.24 0 4.62-2.81 5.64-5.49 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.56 22.29 24 17.8 24 12.5 24 5.87 18.63.5 12 .5z" />
+      </symbol>
+      <symbol id="i-x" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M18.9 1.5h3.5l-7.6 8.7L23.7 22.5h-6.9l-5.4-7-6.2 7H1.7l8.1-9.3L.7 1.5h7.1l4.9 6.4 6.2-6.4zm-1.2 18.9h1.9L7 3.5H5l12.7 16.9z" />
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.52.01-4.76.07-.9.04-1.39.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.32-.28.81-.32 1.71C3.21 8.48 3.2 8.85 3.2 12s.01 3.52.07 4.76c.04.9.19 1.39.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.32.13.81.28 1.71.32 1.24.06 1.61.07 4.76.07s3.52-.01 4.76-.07c.9-.04 1.39-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.32.28-.81.32-1.71.06-1.24.07-1.61.07-4.76s-.01-3.52-.07-4.76c-.04-.9-.19-1.39-.32-1.71a2.85 2.85 0 00-.69-1.06 2.85 2.85 0 00-1.06-.69c-.32-.13-.81-.28-1.71-.32C15.52 4.01 15.15 4 12 4zm0 3.06A4.94 4.94 0 1012 16.94 4.94 4.94 0 0012 7.06zm0 8.15A3.21 3.21 0 1112 8.79a3.21 3.21 0 010 6.42zm6.29-8.35a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18v12H3z M3 7l9 6 9-6" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.6a2 2 0 01-.5 2.1L8.1 9.5a16 16 0 006 6l1.1-1.1a2 2 0 012.1-.5c.8.3 1.7.5 2.6.6a2 2 0 011.7 2z" />
+      </symbol>
+      <symbol id="i-download" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4 M7 10l5 5 5-5 M12 15V3" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z" />
+        <circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="2" />
+      </symbol>
+      <symbol id="i-external" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6 M15 3h6v6 M10 14L21 3" />
+      </symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 12h18 M12 3a15 15 0 010 18 15 15 0 010-18z" />
+      </symbol>
+    </svg>
+
+    <!-- ===================== HERO ===================== -->
+    <header class="hero">
+      <div class="contour-bg" aria-hidden="true">
+        <svg viewBox="0 0 1200 620" preserveAspectRatio="xMidYMid slice">
+          <path d="M-40 120 C 200 60, 420 180, 640 120 S 1040 60, 1260 150" />
+          <path d="M-40 190 C 220 130, 440 250, 660 185 S 1060 130, 1260 220" />
+          <path d="M-40 265 C 240 205, 460 320, 680 255 S 1080 205, 1260 290" />
+          <path d="M-40 345 C 210 290, 470 400, 700 335 S 1090 285, 1260 365" />
+          <path d="M-40 430 C 230 375, 480 480, 700 420 S 1100 370, 1260 450" />
+          <path d="M-40 520 C 250 465, 500 560, 720 505 S 1110 460, 1260 535" />
+          <path d="M-40 605 C 250 555, 520 640, 740 590 S 1120 550, 1260 620" />
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-top">
           <img
-            class="profile-image"
-            style="border-radius: 50%"
-            src="assets/images/1627927263712.jfif"
-            alt=""
+            class="avatar"
+            src="assets/images/profile.jpg"
+            width="68"
+            height="68"
+            alt="Portrait of Marc Llopart Riera"
           />
-          <h1 class="name">Marc Llopart</h1>
-          <div class="title">Senior Software Engineer & CTO</div>
-          <div class="profile">
-            <p>
-              Dynamic Senior Engineer and forward-thinking CTO with a
-              demonstrated history of leading innovation in technology and
-              project execution.
-            </p>
-            <p>
-              My expertise lies in steering teams towards exceptional
-              performance and pioneering development in artificial intelligence
-              and search engine technologies. As a committed lifelong learner, I
-              have a deep passion for embracing cutting-edge technologies,
-              continuously enhancing my professional skill set, and adapting
-              rapidly to the evolving tech landscape.Known for staying ahead of
-              industry trends, I excel in making pivotal decisions under
-              pressure, diagnosing challenges swiftly, and deploying the most
-              efficient solutions.
-            </p>
-            <p>
-              Beyond the professional realm, I am an enthusiastic trail runner,
-              a lover of the great outdoors, and a connoisseur of mystery
-              literature. I am currently exploring the fascinating world of game
-              development, leveraging the capabilities of Unreal Engine to
-              create immersive experiences.
-            </p>
-          </div>
-          <!--//profile-->
+          <nav class="hero-socials" aria-label="Social profiles">
+            <a class="icon-btn" rel="me noopener" target="_blank" href="https://www.linkedin.com/in/mllopart/" aria-label="LinkedIn">
+              <svg aria-hidden="true"><use href="#i-linkedin" /></svg>
+            </a>
+            <a class="icon-btn" rel="me noopener" target="_blank" href="https://github.com/mllopart" aria-label="GitHub">
+              <svg aria-hidden="true"><use href="#i-github" /></svg>
+            </a>
+            <a class="icon-btn" rel="me noopener" target="_blank" href="https://twitter.com/larsnow" aria-label="X (Twitter)">
+              <svg aria-hidden="true"><use href="#i-x" /></svg>
+            </a>
+            <a class="icon-btn" rel="me noopener" target="_blank" href="https://www.instagram.com/larsnow/" aria-label="Instagram">
+              <svg aria-hidden="true"><use href="#i-instagram" /></svg>
+            </a>
+          </nav>
         </div>
-        <!--//container-->
-      </div>
-      <!--//intro-->
 
-      <div class="contact-info">
-        <div class="container text-center">
-          <ul class="list-inline">
-            <li class="email list-inline-item">
-              <i class="fas fa-envelope mr-2"></i
-              ><a href="mailto:marc@luodaint.com">marc@luodaint.com</a>
+        <p class="eyebrow">CTO · Engineering Leader · 20 Years</p>
+        <h1>Marc Llopart</h1>
+        <p class="role">Building AI &amp; search systems</p>
+        <p class="thesis">
+          I build <b>AI and search systems</b> — and the engineering teams
+          that ship them.
+        </p>
+
+        <div class="coords">
+          <span><b>Lived &amp; worked</b></span>
+          <span>41.4°N&nbsp; Barcelona</span>
+          <span>53.3°N&nbsp; Dublin</span>
+          <span>42.4°N&nbsp; Boston</span>
+          <span>· Remote</span>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:marc@medullar.com">
+            <svg aria-hidden="true"><use href="#i-mail" /></svg> Get in touch
+          </a>
+          <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.luodaint.com">
+            <svg aria-hidden="true"><use href="#i-globe" /></svg> luodaint.com
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== NAV ===================== -->
+    <nav class="pagenav" aria-label="Sections">
+      <ul>
+        <li><a href="#route">Career</a></li>
+        <li><a href="#ascents">Ascents</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      <!-- ===================== ELEVATION PROFILE (signature) ===================== -->
+      <section id="route" class="section elevation">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-index">01 — The route so far</span>
+            <h2>Career elevation profile</h2>
+          </div>
+          <div class="elevation-frame reveal">
+            <svg id="elev-svg" viewBox="0 0 1000 360" role="img"
+              aria-label="Line chart of Marc's career plotted as a hiking elevation profile: role seniority rising over time from analyst roles in 2003 to CTO today, with named company summits along the way."></svg>
+          </div>
+          <p class="elev-caption">Altitude = role seniority · x = year · summit = Medullar, CTO</p>
+        </div>
+      </section>
+
+      <!-- ===================== KEY ASCENTS ===================== -->
+      <section id="ascents" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-index">02 — Highlights</span>
+            <h2>Key ascents</h2>
+          </div>
+          <ul class="ascents reveal">
+            <li>
+              <strong>Elevated to CTO</strong>, leading the technological vision
+              and strategy — fostering innovation and guiding Medullar Solutions
+              Inc. through its next phases of growth in AI and software development.
             </li>
-            <li class="list-inline-item">
-              <i class="fas fa-mobile-alt mr-2"></i
-              ><a href="#">+34 680 83 99 63</a>
+            <li>
+              Demonstrated <strong>hands-on leadership</strong> in architecture and
+              software development, overseeing multiple remote engineering teams at
+              Keeeb Inc. and fostering a highly collaborative environment.
             </li>
-            <li class="website list-inline-item">
-              <i class="fas fa-globe mr-2"></i
-              ><a href="https://www.marcllopartriera.com" target="_blank"
-                >marcllopartriera.com</a
-              >
+            <li>
+              Established a remote engineering team from scratch — Backend, AI and
+              Frontend — that built a microservices architecture.
+              <strong>Recruited and coached 15+ developers</strong> worldwide into a
+              team that launched a successful product.
             </li>
-            <li class="website list-inline-item">
-              <i class="fas fa-globe mr-2"></i
-              ><a href="https://www.luodaint.com" target="_blank"
-                >luodaint.com</a
-              >
+            <li>
+              Transitioned Keeeb Inc. from a monolithic architecture to a scalable
+              microservices framework, running <strong>12+ services in Kubernetes</strong>
+              for on-demand scalability.
+            </li>
+            <li>
+              Collaborated closely with DevOps on Docker and Kubernetes, deployment
+              infrastructure, and automation processes.
+            </li>
+            <li>
+              Managed <strong>C-level relationships</strong>, founders and investors —
+              driving technological innovation and continuous client engagement.
+            </li>
+            <li>
+              Introduced process improvements across code organization, CI/CD, Jira,
+              Bitbucket workflow and testing environments, lifting efficiency and
+              productivity.
+            </li>
+            <li>
+              Spearheaded technology transformation at Santander Bank US for the AML
+              and Fraud team using BAE (formerly Norkom) technology, overseeing
+              project lifecycles and ensuring successful deployments.
+            </li>
+            <li>
+              <strong>Founded and launched three startups</strong> — identifying market
+              needs, building the solutions, and bringing them to market.
+            </li>
+            <li>
+              Built global perspective and adaptability by living in Spain, Ireland
+              and the USA, sharpening problem-solving and readiness for the
+              unforeseen.
             </li>
           </ul>
         </div>
-        <!--//container-->
-      </div>
-      <!--//contact-info-->
-
-      <div
-        id="page-nav-space-holder"
-        class="page-nav-space-holder d-none d-md-block"
-      >
-        <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
-          <div class="container">
-            <ul id="page-nav" class="nav page-nav list-inline">
-              <li class="nav-item">
-                <a class="scrollto nav-link" href="#accomplishments-section"
-                  >Accomplishments</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="scrollto nav-link" href="#experiences-section"
-                  >Experiences</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="scrollto nav-link" href="#education-section"
-                  >Education</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="scrollto nav-link" href="#skills-section">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="scrollto nav-link" href="#testimonials-section"
-                  >Testimonials</a
-                >
-              </li>
-            </ul>
-            <!--//page-nav-->
-          </div>
-        </div>
-        <!--//page-nav-wrapper-->
-      </div>
-    </header>
-    <!--//header-->
-
-    <div class="wrapper container">
-      <section
-        id="accomplishments-section"
-        class="accomplishments-section section"
-      >
-        <h2 class="section-title">Accomplishments</h2>
-        <ul class="list-unstyled service-list ml-0">
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            <strong>Elevated to CTO</strong>, leading the technological vision
-            and strategy, fostering innovation and guiding Medullar Solutions
-            Inc. through its next phases of growth in AI and software
-            development.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            Demonstrated <strong>Hands-on leadership</strong> in architecture
-            and software development, overseeing multiple remote engineering
-            teams at Keeeb Inc., fostering a highly collaborative environment.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i> Established a
-            comprehensive remote engineering team from scratch, consisting of
-            Backend, AI, and Frontend developers, who successfully built a
-            microservices architecture. Recruited and coached over 15 developers
-            worldwide, forming a robust team that launched a successful product.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i> Transitioned Keeeb
-            Inc. from a monolithic architecture to a scalable microservices
-            framework, incorporating over 12 services within a Kubernetes
-            cluster for on-demand scalability.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i> Collaborated closely
-            with the DevOps team on Docker and Kubernetes implementations,
-            deployment infrastructure, and automation processes
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            Managed <strong>C-level relationships</strong>, founders, and
-            investors, driving technological innovation and maintaining
-            continuous client engagement.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            Implemented process enhancements in code organization, CI/CD, Jira,
-            Bitbucket workflow, and testing environments, leading to improved
-            efficiency and productivity.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            Spearheaded technology transformation at Santander Bank US for the
-            AML and Fraud team, employing BAE Technology (formerly Norkom
-            Technologies), overseeing project lifecycles, and ensuring
-            successful deployments.
-          </li>
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i> Lead the Founded and
-            launched three startups, leveraging entrepreneurial skills to
-            identify market needs, develop solutions, and successfully bring
-            them to market.
-          </li>
-
-          <li>
-            <i class="fas fa-check" aria-hidden="true"></i>
-            Embraced global perspectives and adaptability through living in
-            Spain, Ireland, and the USA, enhancing problem-solving skills and
-            fostering a readiness for unforeseen challenges.
-          </li>
-        </ul>
       </section>
-      <section id="experiences-section" class="experiences-section section">
-        <h2 class="section-title">Work Experiences</h2>
-        <div class="timeline">
-          <!--//item-->
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://www.medullar.com" target="_blank"
-                  >Medullar Solutions Inc.</a
-                >
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Remote
-              </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Chief Technology Officer (CTO)</div>
-              <div class="time">2022 - Actually</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                As the Chief Technology Officer at Medullar Solutions, I am the
-                driving force behind the company's technological direction and
-                innovation. My role encompasses both strategic planning and
-                operational management, primarily aimed at synchronizing the
-                company's tech strategy with overarching business objectives.
-              </p>
-              <p>
-                Before seeking investment, I developed a proof of concept from
-                the ground up, laying the foundation for our technology-driven
-                solutions. Additionally, I meticulously designed the entire
-                infrastructure, encompassing both DevOps and software
-                architecture, setting the stage for scalable and efficient
-                product development.
-              </p>
-            </div>
-            <!--//job-desc-->
+
+      <!-- ===================== EXPERIENCE ===================== -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-index">03 — The climb</span>
+            <h2>Experience</h2>
           </div>
-          <!--//item-->
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://uvesolutions.com/" target="_blank"
-                  >UVE Route to market data intelligence</a
-                >
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Remote / Manresa
-                (Spain)
+          <div class="xp">
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://www.medullar.com" target="_blank" rel="noopener">Medullar Solutions Inc.</a></h3>
+                <span class="xp-years">2022 – Present</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Development Team Lead</div>
-              <div class="time">2022 - 2023</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
+              <div class="xp-meta">
+                <span class="title-role">Chief Technology Officer</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Remote</span>
+              </div>
               <p>
-                As the leader of the APPS Team at UVE, my role was to drive the
-                mobility product team towards achieving our objectives,
-                promoting both the platform's and the team's development and
-                stability. My responsibilities included:
+                As CTO I drive Medullar's technological direction and innovation,
+                spanning strategic planning and operational management, and keeping the
+                tech strategy in step with business objectives.
+              </p>
+              <p>
+                Before we raised investment, I built a proof of concept from the ground
+                up, then designed the full infrastructure — DevOps and software
+                architecture — for scalable, efficient product development.
+              </p>
+            </article>
+
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://uvesolutions.com/" target="_blank" rel="noopener">UVE — Route-to-market data intelligence</a></h3>
+                <span class="xp-years">2022 – 2023</span>
+              </div>
+              <div class="xp-meta">
+                <span class="title-role">Development Team Lead</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Remote / Manresa, Spain</span>
+              </div>
+              <p>
+                Led the Apps team, driving the mobility product toward its goals while
+                promoting the platform's and the team's stability. I:
               </p>
               <ul>
-                <li>
-                  Working alongside the CTO to craft the technical roadmap for
-                  our products.
-                </li>
-                <li>
-                  Steering the introduction of new features and developments.
-                </li>
-                <li>
-                  Engaging in the full product lifecycle with an emphasis on
-                  development and troubleshooting.
-                </li>
-                <li>
-                  Implementing best practices in software engineering to ensure
-                  code is clean, maintainable, scalable, and optimized.
-                </li>
-                <li>
-                  Enhancing the platform's performance for speed and
-                  scalability.
-                </li>
-                <li>
-                  Providing mentorship and direction to the team for their
-                  growth and development.
-                </li>
-                <li>
-                  Holding individual meetings with team members to address their
-                  concerns and foster their progress.
-                </li>
-                <li>
-                  Overseeing project deliverables to guarantee client
-                  satisfaction.
-                </li>
+                <li>Worked with the CTO to craft the technical roadmap.</li>
+                <li>Steered new features and developments end to end.</li>
+                <li>Championed clean, maintainable, scalable, optimized code.</li>
+                <li>Improved platform performance for speed and scalability.</li>
+                <li>Mentored the team through one-on-ones and hands-on direction.</li>
+                <li>Owned deliverables to guarantee client satisfaction.</li>
               </ul>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://www.bita.io/" target="_blank">BITA GmbH</a>
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Remote
+            </article>
+
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://www.bita.io/" target="_blank" rel="noopener">BITA GmbH</a></h3>
+                <span class="xp-years">2022</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Interim Lead Data Architect</div>
-              <div class="time">2022 - 2022</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                6-month consulting project helping Bita organize and evolve the
-                Cloud architecture in AWS.
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">Keeeb Inc.</h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Remote
+              <div class="xp-meta">
+                <span class="title-role">Interim Lead Data Architect</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Remote</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Director of Engineering</div>
-              <div class="time">2019 - 2021</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>In my role as Director of Engineering at Keeeb, I:</p>
+              <p>Six-month consulting engagement helping BITA organize and evolve its cloud architecture on AWS.</p>
+            </article>
+
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3>Keeeb Inc.</h3>
+                <span class="xp-years">2019 – 2021</span>
+              </div>
+              <div class="xp-meta">
+                <span class="title-role">Director of Engineering</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Remote</span>
+              </div>
+              <p>As Director of Engineering at Keeeb, I:</p>
               <ul>
-                <li>
-                  Spearhead and oversee agile software engineering teams across
-                  the product development lifecycle.
-                </li>
-                <li>
-                  Excel in communication, simplifying complex technical and
-                  business challenges for diverse audiences.
-                </li>
-                <li>Act as the chief architect for web technologies.</li>
-                <li>Collaborate with product owners.</li>
-                <li>
-                  Guarantee project execution, ensuring software is robust,
-                  elegant, scalable, and performs optimally under heavy loads.
-                </li>
-                <li>
-                  Coordinate with Product Management to synchronize roadmaps,
-                  resource allocation, investment strategies, and stakeholder
-                  engagement.
-                </li>
-                <li>Draft API specifications.</li>
-                <li>
-                  Tackle intricate software challenges, leading teams to
-                  innovative solutions.
-                </li>
-                <li>
-                  Propel our technology platform's growth in sync with
-                  engineering leadership.
-                </li>
-                <li>
-                  Cultivate and maintain a high-achieving, unified engineering
-                  team.
-                </li>
-                <li>
-                  Champion engineering excellence, best practices, and high
-                  coding standards.
-                </li>
-                <li>
-                  Influence strategic decisions in roadmap, architecture, and
-                  planning.
-                </li>
-                <li>
-                  Promote a dynamic, inclusive, and collaborative engineering
-                  culture.
-                </li>
-                <li>
-                  Work intimately with various teams within engineering,
-                  product, and the broader organization to pioneer solutions to
-                  emerging challenges.
-                </li>
-                <li>
-                  Support the team in delivering outstanding products swiftly,
-                  within a continuous delivery framework.
-                </li>
+                <li>Led agile engineering teams across the product development lifecycle.</li>
+                <li>Acted as chief architect for web technologies and drafted API specifications.</li>
+                <li>Simplified complex technical and business challenges for diverse audiences.</li>
+                <li>Ensured software was robust, elegant, scalable and performant under heavy load.</li>
+                <li>Synchronized roadmaps, resourcing and stakeholder engagement with Product.</li>
+                <li>Cultivated a high-achieving, inclusive and collaborative engineering culture.</li>
+                <li>Influenced strategic decisions across roadmap, architecture and planning.</li>
               </ul>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
+            </article>
 
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">Keeeb Deutschland GmbH</h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Remote
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3>Keeeb Deutschland GmbH</h3>
+                <span class="xp-years">2018 – 2019</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Developer Lead</div>
-              <div class="time">2018 - 2019</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                Overseeing the team that develops Keeeb's key products and
-                establishing the software architecture.
-              </p>
-              <p>
-                <i>Technical skills:</i> Project management, Scrum, Python,
-                Elastic-Search, RabbitMQ, AI, Docker, Ansible, Vagrant, Software
-                architecture, Big Data, Hadoop, Cloudera, Redis, PostgreSQL
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
+              <div class="xp-meta">
+                <span class="title-role">Developer Lead</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Remote</span>
+              </div>
+              <p>Led the team building Keeeb's core products and established the software architecture.</p>
+              <p class="tech"><b>Stack:</b> Python, Elasticsearch, RabbitMQ, AI, Docker, Ansible, Vagrant, Big Data, Hadoop, Cloudera, Redis, PostgreSQL · Scrum</p>
+            </article>
 
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">Abacus Marketing Solutions</h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Barcelona (Spain)
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3>Abacus Marketing Solutions</h3>
+                <span class="xp-years">2017 – 2018</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Senior PHP backend developer</div>
-              <div class="time">2017 - 2018</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                Managing the company's email distribution platform used for bulk
-                email campaigns.
-              </p>
-              <p>
-                <i>Technical skills:</i> Project management, PHP with Symfony 2
-                and 3, MongoDB, MySQL, RESTful API, Javascript, HTML, CSS,
-                Postfix email, Unix.
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
+              <div class="xp-meta">
+                <span class="title-role">Senior PHP Backend Developer</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Barcelona, Spain</span>
+              </div>
+              <p>Ran the company's email distribution platform for bulk email campaigns.</p>
+              <p class="tech"><b>Stack:</b> PHP (Symfony 2 &amp; 3), MongoDB, MySQL, RESTful APIs, JavaScript, HTML, CSS, Postfix, Unix</p>
+            </article>
 
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://www.santanderbank.com/" target="_blank"
-                  >Santander Bank US</a
-                >
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Boston, MA (US)
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://www.santanderbank.com/" target="_blank" rel="noopener">Santander Bank US</a></h3>
+                <span class="xp-years">2013 – 2017</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Software Engineer - Project Manager</div>
-              <div class="time">2013 - 2017</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
+              <div class="xp-meta">
+                <span class="title-role">Software Engineer · Project Manager</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Boston, MA, USA</span>
+              </div>
               <p>
-                Expert in anti-money laundering (AML), fraud, and Currency
-                Transaction Reporting (CTR) initiatives, focusing on software
-                development and deployment. Designs, documents, and creates
-                technical solutions that surpass both banking and regulatory
+                Delivered anti-money-laundering (AML), fraud and Currency Transaction
+                Reporting (CTR) initiatives — designing, documenting and building
+                technical solutions that surpassed banking and regulatory standards.
+              </p>
+              <p class="tech"><b>Stack:</b> Java, Unix, Oracle, ETL, SAS, DB2, Mainframe, Norkom (BAE NetReveal)</p>
+            </article>
+
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://www.luodaint.com/" target="_blank" rel="noopener">luodaint</a></h3>
+                <span class="xp-years">2010 – 2013</span>
+              </div>
+              <div class="xp-meta">
+                <span class="title-role">Founder &amp; Lead Developer</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Barcelona, Spain</span>
+              </div>
+              <p>
+                Freelance web and iOS development for a range of clients. Founded and
+                established two companies — FentPais and 4PeopleMedia — both still
+                active in the Spanish market.
+              </p>
+              <p class="tech"><b>Stack:</b> Python, PHP (Symfony), Objective-C, Java, MySQL, SQLite, Titanium, Node.js, HTML5/CSS3, jQuery, Bootstrap, MongoDB, PostgreSQL</p>
+            </article>
+
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://www.baesystems.com/" target="_blank" rel="noopener">Norkom Technologies (BAE Systems)</a></h3>
+                <span class="xp-years">2008 – 2010</span>
+              </div>
+              <div class="xp-meta">
+                <span class="title-role">Customer Support Engineer · Java Analyst</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Dublin, Ireland</span>
+              </div>
+              <p>
+                Diagnosed systemic shortcomings, devised solutions, and validated
+                software against client requirements and global financial-services
                 standards.
               </p>
-              <p>
-                <i>Technical skills:</i> Java, Unix, Oracle, ETL, SAS, DB2,
-                Mainframe, Norkom (BAE NetReveal) software.
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
+              <p class="tech"><b>Stack:</b> Java, JSP, Ajax, WebSphere 6.1, JBoss, Velocity · Canoo testing, JMeter performance</p>
+            </article>
 
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://www.luodaint.com/" target="_blank">luodaint</a>
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Barcelona (Spain)
+            <article class="xp-item reveal">
+              <div class="xp-head">
+                <h3><a href="https://es.nttdata.com/" target="_blank" rel="noopener">Everis (NTT Data)</a></h3>
+                <span class="xp-years">2003 – 2008</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Founder &amp; Lead Developer</div>
-              <div class="time">2010 - 2013</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                As a freelancer, I've provided web and iOS development services
-                for various clients. I founded and successfully established two
-                companies, FentPais and 4PeopleMedia, both of which continue to
-                flourish in the Spanish market.
-              </p>
-              <p>
-                <i>Technical skills:</i> Python, PHP (Symfony), Objective C,
-                Java, MySQL, sqlite3, Titanium, Node.js, CSS3, HTML5, Responsive
-                design, jQuery, AJAX, Bootstrap, jQuery Mobile, Node.js,
-                MongoDB, Postgress
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
-
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place">
-                <a href="https://www.baesystems.com/" target="_blank">Norkom
-                Technologies (BAE Systems)</a></h3>
-              </h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Dublin (Ireland)
+              <div class="xp-meta">
+                <span class="title-role">Java Analyst · Project Manager</span>
+                <span><svg class="pin" aria-hidden="true" width="14" height="14"><use href="#i-pin" /></svg> Barcelona, Spain</span>
               </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Customer support engineer - Java analyst</div>
-              <div class="time">2008 - 2010</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
               <p>
-                Examined systemic shortcomings, devised solutions, and assessed
-                the developed software to guarantee compliance with client
-                requirements and the global financial services industry
-                standards.
+                Honed my craft as developer, analyst and project leader across a
+                diverse client base — including Deutsche Bank, the Catalonian
+                Department of Education and AUNA Telecomunicaciones.
               </p>
-              <p>
-                <i>Technical skills:</i> Java, JSP, Ajax, Websphere 6.1, JBOSS,
-                Velocity Templates. Technical deign, testing using Canoo test
-                framework, Performance queries using Jmeter. Design and work
-                with Product DBA to design the DB.
-              </p>
-            </div>
-            <!--//job-desc-->
+              <p class="tech"><b>Stack:</b> Java, Oracle, Mainframe, Oracle Forms, PHP, JSP</p>
+            </article>
           </div>
-          <!--//item-->
-
-          <div class="item">
-            <div class="work-place">
-              <h3 class="place"><a href="https://es.nttdata.com/" target="_blank">Everis (NTT DAta)</a></h3>
-              <div class="location">
-                <i class="fas fa-map-marker-alt mr-1"></i>Barcelona (Spain)
-              </div>
-            </div>
-            <div class="job-meta">
-              <div class="title">Java analyst & Project Manager</div>
-              <div class="time">2003 - 2008</div>
-            </div>
-            <!--//job-meta-->
-            <div class="job-desc">
-              <p>
-                I honed my computer skills at Everis Barcelona, a consultancy
-                specializing in IT outsourcing and professional services. There,
-                I took on roles as a developer, analyst, and project leader,
-                working with a diverse range of clients, including Deutsche
-                Bank, the Catalonian Department of Education, and AUNA
-                Telecomunicaciones.
-              </p>
-              <p>
-                <i>Technical skills:</i> Java, Oracle, Mainframe, Oracle Forms,
-                PHP, JSP.
-              </p>
-            </div>
-            <!--//job-desc-->
-          </div>
-          <!--//item-->
         </div>
-        <!--//timeline-->
       </section>
-      <!--//section-->
 
-      <section id="education-section" class="education-section section">
-        <h2 class="section-title">Education</h2>
-        <div class="row">
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">Bachelor degree in computer engineering</h3>
-              <div class="education-body">
-                UOC (Universitat Oberta de Catalunya)
-              </div>
-              <!--//education-body-->
-              <div class="time">2015 - Present</div>
-            </div>
-            <!--//item-inner-->
+      <!-- ===================== EDUCATION ===================== -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-index">04 — Basecamp</span>
+            <h2>Education &amp; certifications</h2>
           </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Desarrollo de juegos con Unreal Engine 4 de 0 a profesional
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2021</div>
+          <div class="edu-grid reveal">
+            <div class="edu-card">
+              <h3>Bachelor's in Computer Engineering</h3>
+              <div class="where">UOC — Universitat Oberta de Catalunya</div>
+              <div class="when">2015 – Present</div>
             </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Programar Blueprints en Unreal Engine de 0 a profesional
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2021</div>
+            <div class="edu-card">
+              <h3 lang="es">Desarrollo de juegos con Unreal Engine 4, de 0 a profesional</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2021</div>
             </div>
-            <!--//item-inner-->
+            <div class="edu-card">
+              <h3 lang="es">Programar Blueprints en Unreal Engine, de 0 a profesional</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2021</div>
+            </div>
+            <div class="edu-card">
+              <h3>Elasticsearch 6 and the Elastic Stack — In Depth &amp; Hands On</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2018</div>
+            </div>
+            <div class="edu-card">
+              <h3>Create Your First Profitable Online Business</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2017</div>
+            </div>
+            <div class="edu-card">
+              <h3>Unity: From Master to Pro by Building 6 Games</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2017</div>
+            </div>
+            <div class="edu-card">
+              <h3>The Complete iOS Game Course with SpriteKit &amp; Swift</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2017</div>
+            </div>
+            <div class="edu-card">
+              <h3>iOS 10 &amp; Swift 3: From Beginner to Paid Professional</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2017</div>
+            </div>
+            <div class="edu-card">
+              <h3>Build a Twitter-like App with Django 1.10</h3>
+              <div class="where">Udemy</div>
+              <div class="when">2016</div>
+            </div>
+            <div class="edu-card">
+              <h3>Business Analysis Foundation</h3>
+              <div class="where">Isban — Santander US</div>
+              <div class="when">2016</div>
+            </div>
+            <div class="edu-card">
+              <h3>PMP Course</h3>
+              <div class="where">Isban — Santander US</div>
+              <div class="when">2016</div>
+            </div>
+            <div class="edu-card">
+              <h3>Manage Agile Projects Using Scrum</h3>
+              <div class="where">Isban — Santander US</div>
+              <div class="when">2016</div>
+            </div>
+            <div class="edu-card">
+              <h3>Developing Computer Applications</h3>
+              <div class="where">Universitat Abat Oliba</div>
+              <div class="when">2001 – 2003</div>
+            </div>
           </div>
-          <!--//item-->
         </div>
-        <!--//row-->
-        <div class="row">
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Elasticsearch 6 and Elastic Stack - In Depth and Hands On!
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2018</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Create Your First Profitable Online Business
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2017</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Unity: From Master to Pro by Building 6 Games
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2017</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-        </div>
-        <!--//row-->
-        <div class="row">
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                The Complete iOS Game Course Using SpriteKit And Swift
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2017</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                iOS 10 & Swift 3: From Beginner to Paid Professional
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2017</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">
-                Build a Twitter-like app step by step with Django 1.10
-              </h3>
-              <div class="education-body">Udemy</div>
-              <!--//education-body-->
-              <div class="time">2016</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-        </div>
-        <!--//row-->
-        <div class="row">
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">Business Analysis Foundation</h3>
-              <div class="education-body">Isban - Santander US</div>
-              <!--//education-body-->
-              <div class="time">2016</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">PMP course</h3>
-              <div class="education-body">Isban - Santander US</div>
-              <!--//education-body-->
-              <div class="time">2016</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">Manage agile projects using Scrum</h3>
-              <div class="education-body">Isban - Santander US</div>
-              <!--//education-body-->
-              <div class="time">2016</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-        </div>
-        <!--//row-->
-        <div class="row">
-          <div class="item col-12 col-md-4">
-            <div class="item-inner">
-              <h3 class="degree">Developing computer applications</h3>
-              <div class="education-body">Universitat Abat Oliba</div>
-              <!--//education-body-->
-              <div class="time">2001 - 2003</div>
-            </div>
-            <!--//item-inner-->
-          </div>
-          <!--//item-->
-        </div>
-        <!--//row-->
       </section>
-      <!--//section-->
 
-      <section id="testimonials-section" class="testimonials-section section">
-        <h2 class="section-title">Testimonials</h2>
-
-        <div
-          id="testimonials-carousel"
-          class="testimonials-carousel carousel slide"
-          data-bs-interval="8000"
-        >
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="0"
-              class="active"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="1"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="2"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="3"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="4"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="5"
-            ></li>
-            <li
-              data-bs-target="#testimonials-carousel"
-              data-bs-slide-to="6"
-            ></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item carousel-item active">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I worked with Marc on one of Norkom's largest projects. His
-                  strong technical knowledge and ability was core to the success
-                  of this project. I found Marc to be a great team player and
-                  his ability to quickly adapt to new challenges central to our
-                  products growth and strength. I would have no hesitation in
-                  recommending Marc.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Paul O'Regan</div>
-                <div class="position">Business leader at MasterCard</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I have worked directly with Marc on a number of deliverables
-                  and projects over time in Norkom. I have found Marc to be very
-                  professional with great attention to detail, hard working and
-                  a real team player. He has shown technical leadership on a
-                  number of complex deliverables in his time at Norkom. I would
-                  have no hesitation in recommending him to any company.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Fintan Maher</div>
-                <div class="position">Product Manager at IBM</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I worked with Marc for two years on a long-term project, and
-                  can attest to his work ethic and dedication. Over the time I
-                  worked with Marc, he demonstrated his strong leadership skills
-                  while creating a positive work environment for his team. He is
-                  very passionate about his work, and creative when designing
-                  new ideas and solutions. He is knowledgeable of all systems he
-                  works on, and is patient when explaining current and new
-                  functionality to clients and IT personnel that are less
-                  familiar. Marc demonstrates resilience when finding the best
-                  solutions to meet the clients’ needs, and takes the time to
-                  ensure solutions are implemented correctly. He is a
-                  self-starter that goes above and beyond to exceed
-                  expectations, and I highly recommend Marc with no
-                  reservations.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Jacquelyn Perrotti</div>
-                <div class="position">
-                  T&O Analyst II at Santander Bank, N.A.
-                </div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  Marc is an exceptional person, always leading by example. His
-                  vast knowledge in different areas of frontend and backend
-                  always provides for well-reasoned decisions towards the
-                  architecture of a solution. His problem solving capabilities
-                  do not only include all technical aspects, but extend to a
-                  personal soft-skill level ensuring the effectiveness of each
-                  team.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Alexander Noack</div>
-                <div class="position">IT Manager and DevOps Specialist</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I really like working with Marc because he is a great team
-                  player who is solution-oriented (even with complex challenges)
-                  and always has the goal in mind. Apart from that, I like him
-                  because he is just super nice and I also like to talk to him
-                  privately.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Dan Nommensen</div>
-                <div class="position">Director Keeeb Innovation Lab</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I have worked with many companies, but the experience I had
-                  with Marc in Keeeb Europe GmbH was definitely the best so far.
-                  I highly recommend his technical skills and expertise, that
-                  allowed him to successfully manage a large and distributed
-                  remote team, even before the pandemic situation started. Any
-                  organization would be lucky to have Marc. The positive culture
-                  he has established allowed team members to truly enjoy the
-                  days working together, while building and scaling an awesome
-                  product and facing many technical challenges. I would
-                  definitely like to work again with him.
-                </p>
-              </blockquote>
-              <div class="source">
-                <div class="name">Massimo Scamarcia</div>
-                <div class="position">Senior DevOps Enginner</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
-
-            <div class="item carousel-item">
-              <blockquote class="quote">
-                <p>
-                  <span class="icon-holder"
-                    ><i class="fas fa-quote-left"></i
-                  ></span>
-                  I have worked with Marc at keeeb and I will highly recommend
-                  Marc as an effective manager and a natural leader. Marc has
-                  the technical know-how, empathy, and ability to organize the
-                  working process that lets team members demonstrate the full
-                  extent of their professional skills. He will always provide
-                  insightful feedback and also a team leader that has empathy
-                  for his team members. It will be a great experience to work
-                  with Marc on the same team.
-                </p>
-              </blockquote>
-
-              <div class="source">
-                <div class="name">Banki Louis</div>
-                <div class="position">Frontend Developer</div>
-              </div>
-              <!--//source-->
-            </div>
-            <!--//item-->
+      <!-- ===================== TESTIMONIALS ===================== -->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-index">05 — On the record</span>
+            <h2>Testimonials</h2>
           </div>
-          <!--//carousel-inner-->
+          <div class="quotes reveal">
+            <figure class="quote-card">
+              <blockquote>His strong technical knowledge and ability were core to the success of one of Norkom's largest projects. A great team player who adapts quickly to new challenges — I'd have no hesitation recommending Marc.</blockquote>
+              <figcaption>
+                <div class="who">Paul O'Regan</div>
+                <div class="where2">Business leader at MasterCard</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>Very professional, with great attention to detail, hard-working and a real team player. He showed technical leadership on a number of complex deliverables. I'd have no hesitation recommending him.</blockquote>
+              <figcaption>
+                <div class="who">Fintan Maher</div>
+                <div class="where2">Product Manager at IBM</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>Over two years on a long-term project, Marc showed strong leadership while creating a positive environment for his team. A self-starter who goes above and beyond — I highly recommend him with no reservations.</blockquote>
+              <figcaption>
+                <div class="who">Jacquelyn Perrotti</div>
+                <div class="where2">T&amp;O Analyst II at Santander Bank, N.A.</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>An exceptional person, always leading by example. His vast knowledge across frontend and backend drives well-reasoned architecture decisions, and his problem-solving extends to the soft-skill level that keeps teams effective.</blockquote>
+              <figcaption>
+                <div class="who">Alexander Noack</div>
+                <div class="where2">IT Manager &amp; DevOps Specialist</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>A great team player, solution-oriented even with complex challenges, and always with the goal in mind. Beyond that, he's just super nice to work — and talk — with.</blockquote>
+              <figcaption>
+                <div class="who">Dan Nommensen</div>
+                <div class="where2">Director, Keeeb Innovation Lab</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>The best experience I've had with any company. Marc successfully managed a large, distributed remote team — even before the pandemic. The positive culture he built let us truly enjoy scaling an awesome product. I'd gladly work with him again.</blockquote>
+              <figcaption>
+                <div class="who">Massimo Scamarcia</div>
+                <div class="where2">Senior DevOps Engineer</div>
+              </figcaption>
+            </figure>
+            <figure class="quote-card">
+              <blockquote>An effective manager and a natural leader. Marc has the technical know-how, empathy and ability to organize work so team members show the full extent of their skills. A great experience to work alongside.</blockquote>
+              <figcaption>
+                <div class="who">Banki Louis</div>
+                <div class="where2">Frontend Developer</div>
+              </figcaption>
+            </figure>
+          </div>
         </div>
-        <!--//testimonials-carousel-->
       </section>
-      <!--//section-->
-    </div>
-    <!--//wrapper-->
+    </main>
 
-    <footer class="footer text-center">
+    <footer class="footer">
       <div class="container">
-        <small class="copyright">Copyright 2024 - Marc Llopart Riera </small>
+        <span class="mark">▲</span> Marc Llopart Riera · Barcelona · © 2026 ·
+        <a href="mailto:marc@medullar.com">marc@medullar.com</a> ·
+        <a href="https://www.luodaint.com" target="_blank" rel="noopener">luodaint.com</a>
       </div>
-      <!--//container-->
     </footer>
 
-    <!-- Javascript -->
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/plugins/easy-pie-chart/dist/easypiechart.min.js"></script>
-    <script src="assets/plugins/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/plugins/isotope.pkgd.min.js"></script>
-    <script src="assets/plugins/smoothscroll.min.js"></script>
-    <script src="assets/plugins/vanilla-back-to-top.min.js"></script>
-    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="assets/js/demo/style-switcher.js"></script>
+    <script src="assets/js/site.js" defer></script>
   </body>
 </html>
